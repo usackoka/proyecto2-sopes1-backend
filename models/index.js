@@ -1,5 +1,5 @@
-import Usuario from './Usuario'
+import Caso from './Caso'
 
 export default{
-    Usuario
+    Caso
 }

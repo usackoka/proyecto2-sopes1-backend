@@ -1,8 +1,8 @@
 import routerx from 'express-promise-router';
-import TestRouter from './Test'
+import CasoRouter from './Caso'
 
 const router = routerx();
 
-router.use('/test', TestRouter);
+router.use('/caso', CasoRouter);
 
 export default router;
